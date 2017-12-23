@@ -1,6 +1,6 @@
 # Pi-Hole DNS AD Blocking via openVPN connections.
 
-This is a quick and dirty guide on setting up ad blocking via openVPN and Pi-Hole. Once both of these are setup you can point your openVPN DNS to your pi-hole for ad blocking while connected to open WiFi access points.
+This is a quick and dirty guide on setting up ad blocking via openVPN and Pi-Hole. Once you set this up, you'll enjoy a secure VPN connection with ad blocking to your home network while connected to open WiFi networks.
 
 ### Step 1. 
 Install openVPN on an Ubuntu Server or any of the supported servers listed on openVPN's's website. Digital Ocean has a fantastic how-to guide, so I'm not going to re-write all this. Just follow their guide ...
