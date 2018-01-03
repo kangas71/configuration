@@ -1,4 +1,4 @@
-# Pi-Hole DNS AD Blocking via openVPN connections.
+# Pi-Hole DNS AD Blocking via OpenVPN.
 
 This is a quick and dirty guide on setting up ad blocking via openVPN and Pi-Hole. Once you set this up, you'll enjoy a secure VPN connection with ad blocking to your home network while connected to open WiFi networks.
 
