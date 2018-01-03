@@ -34,8 +34,9 @@ push "route 192.168.0.0 255.255.255.0"
 ### Step 4.
 Setup a static route in your router. This will tell the router where to route your 10.8.0.x (VPN) traffic. Every brand of router is different on how to set this up. Here is an example of what it should look like ...
 
-Network/Host IP     Netmask           Gateway         Interface
-10.9.0.0            255.255.255.0     192.168.0.3     LAN
+| Network/Host IP |    Netmask    |   Gateway   | Interface |
+|:---------------:|:-------------:|:-----------:|:---------:|
+|    10.9.0.0     | 255.255.255.0 | 192.168.0.3 |    LAN    |
 
 Network/Host IP is the IP address of your new VPN subnet and the Gateway (*update this IP address to what your static IP address is on your openVPN server*) is the IP address for your openVPN server. This tells your router to route all 10.9.0.x traffic via the VPN gateway at 192.168.0.3.
 
