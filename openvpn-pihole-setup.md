@@ -22,7 +22,7 @@ https://github.com/pi-hole/pi-hole
 
 https://www.quad9.net/#/#setup-quad9
 
-![alt text](screenshots/pi-hole_DNS_v1.1.png "pi-hole_DNS View")
+![alt text](screenshots/pihole-dns-v1.1.png "pi-hole_DNS View")
 
 ### Step 3.
 Allow internal static routing from your openVPN server into the resources on your LAN. By default this is not enabled in the openVPN config files. To do this edit your configuration file in vi or nano `/etc/openvpn/server.conf`. Look for the "Push routes to the client to allow it to reach other private subnets behind the server" section and enable your push route to your LAN subnet IP address ...
